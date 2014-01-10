@@ -1,3 +1,10 @@
 <h2 id='title'>Welcome to Ember.js</h2>
 
+<nav>
+{{#link-to 'index'}}Go To Home{{/link-to}}
+{{#link-to 'posts'}}Go To Posts{{/link-to}}
+{{#link-to 'post'}}Go To Posts/Post{{/link-to}}
+</nav>
+
+<h1>Home</h1>
 {{outlet}}
